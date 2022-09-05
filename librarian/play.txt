@@ -1,0 +1,19 @@
+<?php
+if(empty($_POST["bknm"])){
+?> 
+<script type="text/javascript">
+    alert("Incorrect Book Name");
+    window.location="lend_books.php";
+</script>
+<?php
+}
+
+<tr>
+    <td> <input type="text" class="form-control" value="<?php echo $booksname ?>" placeholder="Book Name" name="books_name" required="" disabled></td>
+</tr>
+<tr>
+    <td> <input type="text" class="form-control" value="<?php echo $author ?>" placeholder="Book Author" name="books_author" required="" disabled></td>
+</tr>
+<tr>
+    <td> <input type="text" class="form-control" value="<?php echo $publication ?>" placeholder="Book Publication" name="books_publication" required="" disabled></td>
+</tr>
