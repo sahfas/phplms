@@ -53,7 +53,8 @@ session_start();
             <div class="separator">
                 <p class="change_link">New to site?
                     <a href="registration.php"> Create Account </a>
->           </div>
+                </p>           
+                </div>
                 <br/>
 
 
