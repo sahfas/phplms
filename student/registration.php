@@ -57,8 +57,9 @@
                     <div>
                         <input type="text" class="form-control" placeholder="Index Number" name="indexno" required=""/>
                     </div>
-                    <div class="col-lg-12  col-lg-push-3">
+                    <div class="col-lg-12">
                         <input class="btn btn-default submit " type="submit" name="submit1" value="Register">
+                        <a class="reset_pass" href="login.php">Already Have An Account?</a>
                     </div>
 
                 </form>
